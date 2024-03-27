@@ -19,7 +19,7 @@ export default function Home() {
             <p className="text-[48px] font-extrabold text-[#f9faf8] ">
               Roman Quality!
             </p>
-            <p className="text-[18px]">
+            <p className="text-[18px] text-[#e5e7eb]">
               The best Roman pasta in Italy is here at your door!
             </p>
             <button className="bg-[#3882f6] rounded-lg mt-3">
@@ -42,43 +42,55 @@ export default function Home() {
           The "Ancient Technique" of making artisanal pasta
         </p>
         <div className="flex justify-center pt-10 space-x-24 ">
-          <div className="relative w-44 h-44">
-            <Image
-              className="outline outline-2 rounded-lg outline-blue-500 "
-              src={
-                "https://www.giallozafferano.it/images/ricette/219/21989/foto_hd/hd650x433_wm.jpg"
-              }
-              layout="fill"
-              alt="Cacio"
-            ></Image>
+          <div className="align-top	text-center">
+            <div className="relative w-44 h-44">
+              <Image
+                className="outline outline-2 rounded-lg outline-blue-500 "
+                src={
+                  "https://www.giallozafferano.it/images/ricette/219/21989/foto_hd/hd650x433_wm.jpg"
+                }
+                layout="fill"
+                alt="Cacio"
+              ></Image>
+            </div>
+            <p className="w-44 text-[18px] text-[#e5e7eb] mt-2">Cacio e Pepe</p>
           </div>
-          <div className="relative w-44 h-44">
-            <Image
-              className="outline outline-2 rounded-lg outline-blue-500"
-              src={
-                "https://flavorthoughts.com/wp-content/uploads/2023/05/Pasta-alla-Gricia-3.jpg"
-              }
-              layout="fill"
-              alt="gricia"
-            ></Image>
+          <div className="align-top	text-center">
+            <div className="relative w-44 h-44">
+              <Image
+                className="outline outline-2 rounded-lg outline-blue-500"
+                src={
+                  "https://flavorthoughts.com/wp-content/uploads/2023/05/Pasta-alla-Gricia-3.jpg"
+                }
+                layout="fill"
+                alt="gricia"
+              ></Image>
+            </div>
+            <p className="w-44 text-[18px] text-[#e5e7eb] mt-2">Gricia</p>
           </div>
-          <div className="relative w-44 h-44">
-            <Image
-              className="outline outline-2 rounded-lg outline-blue-500"
-              src={amatriciana}
-              layout="fill"
-              alt="Amatriciana"
-            ></Image>
+          <div className="align-top	text-center">
+            <div className="relative w-44 h-44">
+              <Image
+                className="outline outline-2 rounded-lg outline-blue-500"
+                src={amatriciana}
+                layout="fill"
+                alt="Amatriciana"
+              ></Image>
+            </div>
+            <p className="w-44 text-[18px] text-[#e5e7eb] mt-2">Amatriciana</p>
           </div>
-          <div className="relative w-44 h-44">
-            <Image
-              className="outline outline-2 rounded-lg outline-blue-500"
-              src={
-                "https://www.recipetineats.com/wp-content/uploads/2023/01/Carbonara_6a.jpg"
-              }
-              layout="fill"
-              alt="Amatriciana"
-            ></Image>
+          <div className="align-top	text-center">
+            <div className="relative w-44 h-44">
+              <Image
+                className="outline outline-2 rounded-lg outline-blue-500"
+                src={
+                  "https://www.recipetineats.com/wp-content/uploads/2023/01/Carbonara_6a.jpg"
+                }
+                layout="fill"
+                alt="Amatriciana"
+              ></Image>
+            </div>
+            <p className="w-44 text-[18px] text-[#e5e7eb] mt-2">Carbonara</p>
           </div>
         </div>
       </div>
