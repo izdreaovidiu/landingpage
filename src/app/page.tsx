@@ -37,61 +37,73 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="h-72">
-        <p className="flex justify-center pt-10 text-[36px] font-extrabold text-[#1F2937]">
-          The "Ancient Technique" of making artisanal pasta
-        </p>
-        <div className="flex justify-center pt-10 space-x-24 ">
-          <div className="align-top	text-center">
-            <div className="relative w-44 h-44">
-              <Image
-                className="outline outline-2 rounded-lg outline-blue-500 "
-                src={
-                  "https://www.giallozafferano.it/images/ricette/219/21989/foto_hd/hd650x433_wm.jpg"
-                }
-                layout="fill"
-                alt="Cacio"
-              ></Image>
+      <div className="text-[#1f2937] flex flex-col items-center">
+        <div className="h-96 items-center ">
+          <p className="flex justify-center pt-10 text-[36px] font-extrabold text-[#1F2937] ">
+            The "Ancient Technique" of making artisanal pasta
+          </p>
+          <div className="flex justify-center pt-10 space-x-24 ">
+            <div className="align-top	text-center">
+              <div className="relative w-52 h-52">
+                <Image
+                  className="outline outline-2 rounded-lg outline-blue-500 "
+                  src={
+                    "https://www.giallozafferano.it/images/ricette/219/21989/foto_hd/hd650x433_wm.jpg"
+                  }
+                  layout="fill"
+                  objectFit="cover"
+                  alt="Cacio"
+                ></Image>
+              </div>
+              <p className="w-52 text-[18px]  mt-2">Cacio e Pepe</p>
             </div>
-            <p className="w-44 text-[18px] text-[#e5e7eb] mt-2">Cacio e Pepe</p>
-          </div>
-          <div className="align-top	text-center">
-            <div className="relative w-44 h-44">
-              <Image
-                className="outline outline-2 rounded-lg outline-blue-500"
-                src={
-                  "https://flavorthoughts.com/wp-content/uploads/2023/05/Pasta-alla-Gricia-3.jpg"
-                }
-                layout="fill"
-                alt="gricia"
-              ></Image>
+            <div className="align-top	text-center">
+              <div className="relative w-52 h-52">
+                <Image
+                  className="outline outline-2 rounded-lg outline-blue-500"
+                  src={
+                    "https://flavorthoughts.com/wp-content/uploads/2023/05/Pasta-alla-Gricia-3.jpg"
+                  }
+                  layout="fill"
+                  objectFit="cover"
+                  alt="gricia"
+                ></Image>
+              </div>
+              <p className="w-52 text-[18px]  mt-2">Gricia</p>
             </div>
-            <p className="w-44 text-[18px] text-[#e5e7eb] mt-2">Gricia</p>
-          </div>
-          <div className="align-top	text-center">
-            <div className="relative w-44 h-44">
-              <Image
-                className="outline outline-2 rounded-lg outline-blue-500"
-                src={amatriciana}
-                layout="fill"
-                alt="Amatriciana"
-              ></Image>
+            <div className="align-top	text-center ">
+              <div className="relative w-52 h-52">
+                <Image
+                  className="outline outline-2 rounded-lg outline-blue-500"
+                  src={amatriciana}
+                  layout="fill"
+                  objectFit="cover"
+                  alt="Amatriciana"
+                ></Image>
+              </div>
+              <p className="w-52 text-[18px] mt-2">Amatriciana</p>
             </div>
-            <p className="w-44 text-[18px] text-[#e5e7eb] mt-2">Amatriciana</p>
-          </div>
-          <div className="align-top	text-center">
-            <div className="relative w-44 h-44">
-              <Image
-                className="outline outline-2 rounded-lg outline-blue-500"
-                src={
-                  "https://www.recipetineats.com/wp-content/uploads/2023/01/Carbonara_6a.jpg"
-                }
-                layout="fill"
-                alt="Amatriciana"
-              ></Image>
+            <div className="align-top	text-center">
+              <div className="relative w-52 h-52">
+                <Image
+                  className="outline outline-2 rounded-lg outline-blue-500"
+                  src={
+                    "https://www.recipetineats.com/wp-content/uploads/2023/01/Carbonara_6a.jpg"
+                  }
+                  layout="fill"
+                  objectFit="cover"
+                  alt="Amatriciana"
+                ></Image>
+              </div>
+              <p className="w-52 text-[18px] mt-2">Carbonara</p>
             </div>
-            <p className="w-44 text-[18px] text-[#e5e7eb] mt-2">Carbonara</p>
           </div>
+        </div>
+        <div className=" flex bg-[#e5e7eb] h-96 p-36  justify-center items-center">
+          <p className="text-[#1F2937] text-[36px] italic text-center">
+            "Indulge in the timeless comfort of pasta; where every twirl tells a
+            story of tradition, taste, and togetherness."
+          </p>
         </div>
       </div>
     </main>
