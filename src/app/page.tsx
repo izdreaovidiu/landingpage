@@ -37,13 +37,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="text-[#1f2937] flex flex-col items-center">
-        <div className="h-96 items-center ">
+      <div className=" ">
+        <div className="h-96 flex flex-col items-center text-[#1f2937]">
           <p className="flex justify-center pt-10 text-[36px] font-extrabold text-[#1F2937] ">
             The "Ancient Technique" of making artisanal pasta
           </p>
-          <div className="flex justify-center pt-10 space-x-24 ">
-            <div className="align-top	text-center">
+          <div className="flex justify-center pt-10 space-x-24 w-2/3">
+            <div className="align-top	text-center ">
               <div className="relative w-52 h-52">
                 <Image
                   className="outline outline-2 rounded-lg outline-blue-500 "
@@ -55,7 +55,7 @@ export default function Home() {
                   alt="Cacio"
                 ></Image>
               </div>
-              <p className="w-52 text-[18px]  mt-2">Cacio e Pepe</p>
+              <p className="w-52 text-[18px] mt-2">Cacio e Pepe</p>
             </div>
             <div className="align-top	text-center">
               <div className="relative w-52 h-52">
@@ -69,7 +69,7 @@ export default function Home() {
                   alt="gricia"
                 ></Image>
               </div>
-              <p className="w-52 text-[18px]  mt-2">Gricia</p>
+              <p className="w-52 text-[18px] mt-2">Gricia</p>
             </div>
             <div className="align-top	text-center ">
               <div className="relative w-52 h-52">
@@ -99,11 +99,37 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" flex bg-[#e5e7eb] h-96 p-36  justify-center items-center">
-          <p className="text-[#1F2937] text-[36px] italic text-center">
-            "Indulge in the timeless comfort of pasta; where every twirl tells a
-            story of tradition, taste, and togetherness."
-          </p>
+        <div className="bg-[#e5e7eb] h-96 flex justify-center">
+          <div className="flex justify-center flex-col w-2/3 p-[68px]">
+            <p className="text-[#1F2937] text-[36px] italic text-center ">
+              "Indulge in the timeless comfort of pasta; where every twirl tells
+              a story of tradition, taste, and togetherness."
+            </p>
+            <div className="my-5 text-right">
+              <p className="text-[#1F2937] text-[18px] font-extrabold ">
+                - Nadia Caterina, Pasta Queen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-60 flex justify-center items-center">
+        <div className="h-28 bg-[#3882f6] w-3/4 rounded-lg text-[#f9faf8] flex flex-row">
+          <div className="flex flex-col w-3/4 h-full py-[28px] justify-center">
+            <div className=" px-[141px] font-bold">
+              <p className=" ">Try Now! It's time!</p>
+            </div>
+            <div className="px-[141px] font-extralight">
+              <p>Buy our delicious pasta and try these techniques at home.</p>
+            </div>
+          </div>
+          <div className="flex w-1/4 items-center justify-center ">
+            <button className="rounded-lg outline outline-2 outline-white ">
+              <p className="text-white text-[18px] text-right mx-2 py-1">
+                Order Now!
+              </p>
+            </button>
+          </div>
         </div>
       </div>
     </main>
